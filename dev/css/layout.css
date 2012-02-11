@@ -195,6 +195,7 @@ ul, ol, li                                                                  {lis
 .recipe .recipes li .stats .right 																					{margin:0; padding:0; width:49%; float:right;}
 .recipe .recipes li .stats p 																								{margin:0; padding:0; color:#8f8e8e; font-size:12px; font-weight:bold; text-align:center; line-height:26px;}
 .recipe .recipes li .stats p span 																					{font-weight:normal;}
+.recipe-page .left-side 																										{padding-bottom:120px;}
 .recipe-page .left-side img 																								{margin:40px 0 0; padding:0; border:10px solid #fff; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
 .recipe-page .left-side .watch 																							{margin:0; padding:0; height:50px; line-height:50px; display:block; color:#918d87; font-size:14px; font-weight:bold; font-style:italic; white-space:nowrap; text-align:center; background:url('../images/gold-stripe.png') repeat 0 0;}
 .recipe-page .left-side .watch .icon 																				{margin:0; padding:0; width:30px; height:30px; display:inline-block; background-position:-921px -117px; position:relative; top:10px; left:-8px;}
@@ -210,6 +211,7 @@ ul, ol, li                                                                  {lis
 .recipe-page .left-side .related li img 																		{margin:0; padding:0; float:left; border:none; -moz-box-shadow:0 0 0 #fff; -webkit-box-shadow:0 0 0 #fff; box-shadow:0 0 0 #fff;}
 .recipe-page .left-side .related li h3 																			{margin:0; padding:35px 0 2px; width:64%; color:#827c78; font-size:16px; float:right;}
 .recipe-page .left-side .related li p 																			{margin:0; padding:0; width:64%; color:#9b9b9b; font-size:14px; font-style:italic; float:right;}
+.recipe-page .right-side 																										{padding-bottom:120px;}
 .recipe-page .right-side h2																									{margin:0; padding:70px 0 15px; color:#8a847c; font-size:30px; line-height:32px; font-weight:bold;}
 .recipe-page .right-side .rate-bar 																					{margin:0 0 24px; padding:0; height:48px; border-top:1px solid #dfdad5; border-bottom:1px solid #dfdad5;}
 .recipe-page .right-side .rate-bar ul 																			{margin:0; padding:0; cursor:pointer; display:block; float:left; height:23px; overflow:hidden; position:relative; top:10px;}
@@ -229,6 +231,42 @@ ul, ol, li                                                                  {lis
 .recipe-page .right-side ul li																							{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:14px;}
 .recipe-page .right-side ol																									{margin:0; padding:0 0 15px; list-style:;}
 .recipe-page .right-side ol li																							{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:14px;}
+.recipe-page .review-box 																										{margin:0; padding:0; clear:both; border-top:1px solid #DFDAD5;}
+.recipe-page .review-box .back	 																						{margin:-40px auto 40px; padding:0; width:285px; background:#fff;}
+.recipe-page .review-box .ribbon 																						{margin:0 auto; padding:0; width:275px; height:56px; background-position:-442px -143px;}
+.recipe-page .review-box .main 																							{margin:0; padding:0 0 40px; text-align:center;}
+.recipe-page .review-box .main a:hover 																			{text-decoration:underline;}
+.recipe-page .review-box .rater 																						{margin:0 auto 25px; padding:0; width:433px; height:509px; background-position:0 -202px; position:relative;}
+.recipe-page .review-box .rater h4 																					{margin:0 0 25px; padding:0; color:#7c7b7b; font-size:18px; font-style:italic; text-align:center; line-height:69px;}
+.recipe-page .review-box .rater .question 																	{margin:0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:122px; right:43px;}
+.recipe-page .review-box .rater .question .hover 														{margin:0; padding:20px; width:192px; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.recipe-page .review-box .rater .question .hover p 													{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
+.recipe-page .review-box .rater .question .hover p a 												{color:#fff; text-decoration:underline;}
+.recipe-page .review-box .rater .question .hover p a:hover 									{text-decoration:none;}
+.recipe-page .review-box .rater .question .hover .point 										{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.recipe-page .review-box .rater fieldset 																		{margin:0 auto; padding:0; width:350px; border:none;}
+.recipe-page .review-box .rater label 																			{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.recipe-page .review-box .rater label span 																	{color:#de4400;}
+.recipe-page .review-box .rater input 																			{margin:4px 0 25px; padding:0 5px; width:308px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.recipe-page .review-box .rater input:focus 																{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.recipe-page .review-box .rater input.submit 																{margin:0 auto; padding:0; width:160px; height:30px; display:block; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px;}
+.recipe-page .review-box .rater input.submit:hover 													{background:#5CA7E8;}
+.recipe-page .review-box .rater textarea																		{margin:4px 0 25px; padding:5px; width:308px; height:140px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.recipe-page .review-box .rater textarea:focus 															{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.recipe-page .review-box .rater .rated 																			{margin:14px auto 20px; padding:0; width:250px; height:40px; display:block; overflow:hidden;}
+.recipe-page .review-box .rater .rated li 																	{margin:0; padding:0 4px; float:left;}
+.recipe-page .review-box .rater .rated li .star 														{margin:0; padding:0; width:42px; height:40px; display:block; background-position:-993px -163px;}
+.recipe-page .review-box .rater .rated li .star.active 											{background-position:-993px -122px;}
+.recipe-page .review-box .rater .rated li .star:hover 											{background-position:-993px -122px;}
+.recipe-page .review-box .reviews 																					{margin:0; padding:0; overflow:hidden;}
+.recipe-page .review-box .reviews .reviewy 																	{margin:0 27px 30px 0; padding:0; width:445px; float:left; overflow:hidden; border:1px solid #E2E0E0; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
+.recipe-page .review-box .reviews .reviewy img 															{margin:20px; padding:0; float:left;}
+.recipe-page .review-box .reviews .reviewy .title 													{margin:0; padding:28px 0 0; width:79%; float:right; color:#7c7b7b; font-size:14px; font-style:italic;}
+.recipe-page .review-box .reviews .reviewy .title span 											{font-style:normal; font-weight:bold;}
+.recipe-page .review-box .reviews .reviewy .mini-rated 											{margin:0 0 0 8px; padding:0; width:95px; height:15px; display:inline-block; overflow:hidden; position:relative; top:2px;}
+.recipe-page .review-box .reviews .reviewy .mini-rated .star 								{margin:0 2px; padding:0; width:15px; height:15px; display:block; float:left; background-position:-977px -132px;}
+.recipe-page .review-box .reviews .reviewy .mini-rated .star.active 				{background-position:-977px -117px;}
+.recipe-page .review-box .reviews .reviewy .date 														{margin:0; padding:0; color:#a7a6a6; font-size:12px; font-style:italic;}
 
 /* FOOTER */
 .footer 																																		{margin:0; padding:0 0 40px; width:100%; overflow:hidden; background:url('../images/gold-stripe.png') repeat 0 0;}

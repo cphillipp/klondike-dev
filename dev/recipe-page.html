@@ -147,8 +147,56 @@
 			</ol>
 		</div>
 		<div class="review-box">
-			<div class="sprite ribbon"></div>
+			<div class="back"><div class="sprite ribbon"></div></div>
+			<!-- Three states -->
 			<p class="main">To rate and review this recipe, <a href="#">Sign In</a> or <a href="#">Create an Account</a>.</p>
+			<!-- <p class="main">Be the first to rate and review this recipe. <a href="#">Sign In</a> or <a href="#">Create an Account</a>.</p> -->
+			<!-- <p class="main"><a href="#">Add Your Own Rating and Review</a></p> -->
+			<div class="sprite rater">
+				<h4>Share Your Thoughts!</h4>
+				<div class="sprite question">
+					<div class="hover">
+						<span class="sprite point"></span>
+						<p>Your Display Name is the name that will be shown with your rating/review. This can be changed here or on <a href="#">your account page</a>.</p>
+					</div>
+				</div>
+				<form>
+					<fieldset>						
+						<label>Display Name <span>&#42;</span></label>
+						<br />
+						<input type="text" name="name" />
+						<label>Rating <span>&#42;</span></label>
+						<br />
+						<ul class="rated">
+							<li><a href="#" class="sprite star active"></a></li>
+							<li><a href="#" class="sprite star active"></a></li>
+							<li><a href="#" class="sprite star active"></a></li>
+							<li><a href="#" class="sprite star active"></a></li>
+							<li><a href="#" class="sprite star"></a></li>
+						</ul>
+						<label>Review</label>
+						<br />
+						<textarea></textarea>
+						<input class="submit" type="submit" value="Submit" />
+					</fieldset>
+				</form>
+			</div>
+			<div class="reviews">
+				<div class="reviewy">
+					<img src="images/place09.png" alt="banner" />
+					<div class="title">
+						<span>jdoe123</span> gave this recipe
+						<ul class="mini-rated">
+							<li class="sprite star active"></li>
+							<li class="sprite star active"></li>
+							<li class="sprite star active"></li>
+							<li class="sprite star active"></li>
+							<li class="sprite star"></li>
+						</ul>
+					</div>
+					<p class="date">on January 12, 2012</p>
+				</div>
+			</div>
 			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
