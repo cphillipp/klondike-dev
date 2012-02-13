@@ -90,6 +90,7 @@ ul, ol, li                                                                  {lis
 
 /* PRODUCT */
 .product .social-plugs 																											{margin:0 0 38px; padding:0; overflow:hidden;}
+.product .social-plugs .option 																							{margin:0; padding:0; float:left;}
 .product .line 																															{margin:15px 0 30px; padding:0; height:1px; background:#d5d5d5;}
 .product .left-side																													{padding-bottom:164px;}
 .product .right-side																												{padding-bottom:164px;}
