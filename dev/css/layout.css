@@ -1,6 +1,7 @@
 /* GENERAL */                         											
 body                                                                        {margin:0; padding:0; font-family:"Lora", Georgia, Times; font-size:14px; color:#7c7b7b; line-height:16px;}
 h1 																																					{margin:0; padding:0 0 15px; color:#c81e54; font-size:33px;}
+h1.main																																			{margin:0 30px 15px; padding:0 0 30px; color:#7c7b7b; font-size:28px; font-style:italic; border-bottom:1px solid #DFDAD5;}
 h2 																																					{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:18px; font-style:italic; font-weight:normal;}
 p 																																					{line-height:20px;}
 a                                                                           {color:#06a5ef; text-decoration:none;}
@@ -57,7 +58,7 @@ ul, ol, li                                                                  {lis
 
 /* COLUMNS */
 .left-side																																	{margin:0; padding:0 15px 20px 30px; width:445px; float:left;}
-.right-side																																	{margin:0; padding:0 30px 20px 15px; width:445px; float:left;}
+.right-side																																	{margin:0; padding:0 30px 20px 15px; width:445px; float:right;}
 
 /* BANNER */
 #slidebox																																		{position:relative; margin:0 auto 15px;}
@@ -87,6 +88,111 @@ ul, ol, li                                                                  {lis
 .varieties .left .box	 																											{margin:0; padding:19px 0 0 14px; width:288px; height:149px; border:1px solid #DFDAD5; position:absolute; top:-6px; left:5px; overflow:hidden;}
 .varieties .right																														{margin:0; padding:0; width:308px; height:158px; border:1px solid #DFDAD5; position:absolute; top:16px; right:0px;}
 .varieties .right .box 																											{margin:0; padding:19px 0 0 14px; width:288px; height:149px; border:1px solid #DFDAD5; position:absolute; top:-6px; right:5px; overflow:hidden;}
+
+/* ACCOUNT */
+.account 																																		{padding:35px 0 0;}
+.account .buttons																														{margin:0 auto 47px; padding:0 0 0 170px; width:750px; overflow:hidden; position:relative;}
+.account .buttons .shadow 																									{margin:0; padding:0; width:920px; height:11px; background-position:-434px -204px; position:absolute; top:8px; left:0; z-index:-1;}
+.account .buttons a 																												{margin:0 80px 0 0; padding:0; width:250px; height:35px; display:block; float:left; color:#928f8a; font-size:15px; line-height:35px; text-align:center; font-weight:bold; font-style:italic; background:#E0DED7; -moz-border-radius:3px; border-radius:3px;}
+.account .buttons a:hover 																									{color:#fff; background:#F5C12A;}
+.account .buttons a.active 																									{color:#fff; background:#F5C12A;}
+.account .login 																														{margin:0 auto; padding:0; width:620px; border-top:1px solid #DFDAD5;}
+.account .login .connect 																										{margin:-10px auto 30px; padding:0 5px; width:185px; background:#fff; color:#7c7b7b; font-size:14px;}
+.account .login fieldset 																										{margin:0; padding:0; width:290px; border:none;}
+.account .login fieldset.left 																							{float:left;}
+.account .login fieldset.right																							{float:right;}
+.account .login label 																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.account .login label span 																									{color:#de4400;}
+.account .login input 																											{margin:4px 0 25px; padding:0 5px; width:280px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.account .login input:focus 																								{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.account .login input.submit 																								{margin:4px 0 0; padding:0; width:130px; height:35px; display:block; float:right; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+.account .login input.submit:hover 																					{background:#5CA7E8;}
+.account .login a:hover 																										{text-decoration:underline;}
+.account .third 																														{margin:0 5px 0 20px; padding:0 0 50px; width:290px; float:left;}
+.account .third label 																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.account .third label span 																									{color:#de4400;}
+.account .third label.right 																								{float:right; width:135px;}
+.account .third input 																											{margin:4px 0 25px; padding:0 5px; width:270px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.account .third input:focus 																								{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.account .third input.right 																								{margin-right:10px; float:right; width:115px; clear:right;}
+.account .third input.short 																								{margin-right:10px; float:left; width:245px;}
+.account .third input.radio 																								{width:auto;}
+.account .third input.check 																								{margin:0 0 8px; width:auto; height:auto;}
+.account .third select 																											{margin:8px 0 25px; padding:0; width:125px; display:block; font-size:18px;}
+.account .third .label																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-style:italic; position:relative; top:-8px;}
+.account .third .label.first																								{padding:0 40px 0 0;}
+.account .third .question 																									{margin:10px 10px 0 0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; float:right;}
+.account .third .question .hover 																						{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.account .third .question .hover p 																					{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
+.account .third .question .hover p a 																				{color:#fff; text-decoration:underline;}
+.account .third .question .hover p a:hover 																	{text-decoration:none;}
+.account .third .question .hover .point 																		{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.account .half	 																														{margin:0 20px; padding:0 0 50px; width:440px; float:left;}
+.account h2 																																{padding:0 0 30px; font-weight:bold;}
+.account h4 																																{padding:30px 0 0; font-weight:bold; color:#b4b4b4; font-size:11px; text-transform:uppercase;}
+.account img 																																{margin:0 0 20px; padding:0;}
+.account ul 																																{margin:0; padding:0;}
+.account li																																	{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.account li span																														{font-weight:normal; position:relative;}
+.account li span .question 																									{margin:0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:0px; right:-20px; float:none;}
+.account li span .question .hover 																					{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.account li span .question .hover p 																				{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
+.account li span .question .hover p a 																			{color:#fff; text-decoration:underline;}
+.account li span .question .hover p a:hover 																{text-decoration:none;}
+.account li span .question .hover .point 																		{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.account li.sub																															{margin:0; padding:0 0 5px; color:#7c7b7b; font-size:14px; font-weight:normal; font-style:italic;}
+.account .upload 																														{margin:0 0 30px; padding:0; width:130px; height:30px; display:block; color:#858484; font-size:14px; font-style:italic; text-align:center; line-height:30px; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
+.account .upload:hover 																											{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
+.account .connect 																													{margin:45px 0 0; padding:30px 18px; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
+.account .connect h5 																												{margin:0; padding:0; border-top:1px solid #DFDAD5; text-align:center;}
+.account .connect h5 span 																									{margin:0; padding:0 5px; background:#fff; color:#7c7b7b; font-size:14px; font-weight:normal; position:relative; top:-9px;}
+.account .connect p 																												{margin:0; padding:0; color:#7c7b7b; font-size:13px; font-style:italic;}
+.account .divider 																													{margin:0 20px; padding:0 0 50px; border-top:1px solid #DFDAD5; clear:both;}
+.account .button-divider 																										{margin:0 20px 50px; padding:0; border-top:1px solid #DFDAD5; clear:both;}
+.account .button-divider .back 																							{margin:-17px auto 0; padding:0 10px; width:155px; background:#fff;}
+.account .button-divider a 																									{margin:0; padding:0; width:155px; height:30px; display:block; color:#858484; font-size:14px; font-style:italic; text-align:center; line-height:30px; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
+.account .button-divider a:hover 																						{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
+.account .title 																														{margin:0 auto; padding:0 0 60px; width:575px; color:#7c7b7b; font-size:14px; line-height:24px; font-style:italic;}
+.account .title a:hover 																										{text-decoration:underline;}
+
+/* CONTACT */
+.contact 																																		{padding:35px 0 50px;}
+.contact .left-side																													{margin:0; padding:0 15px 20px 30px; width:600px; float:left;}
+.contact fieldset 																													{margin:0; padding:0; border:none;}
+.contact fieldset.left 																											{width:290px; float:left;}
+.contact fieldset.right 																										{width:290px; float:right;}
+.contact label 																															{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.contact label span 																												{color:#de4400;}
+.contact input 																															{margin:4px 0 25px; padding:0 5px; width:90%; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.contact input:focus 																												{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.contact input.long 																												{width:95%;}
+.contact input.submit 																											{margin:50px 20px 0 0; padding:0; width:100px; height:35px; display:block; float:right; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+.contact input.submit:hover 																								{background:#5CA7E8;}
+.contact textarea																														{margin:4px 0 25px; padding:5px; width:95%; height:170px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.contact textarea:focus 																										{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.contact .extra 																														{margin:30px 0 0; padding:30px 0 0; width:97%; border-top:1px solid #DFDAD5; font-style:italic;}
+.contact .right-side																												{margin:0; padding:0 30px 20px 15px; width:290px; float:right;}
+.contact .right-side .info 																									{margin:18px 0 0; padding:0 20px 20px; background:#fff; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
+.contact .right-side .info h5 																							{margin:0; padding:20px 0 6px; color:#7c7b7b; font-size:14px; line-height:18px; font-style:italic;}
+.contact .right-side .info p	 																							{margin:0; padding:0 0 5px; color:#7c7b7b; font-size:13px; line-height:18px;}
+.contact .right-side .info p a:hover 																				{text-decoration:underline;}
+.contact #recaptcha_widget_div 																							{float:left;}
+.recaptchatable #recaptcha_response_field 																	{border:none !important; background:#fff;}
+.contact #recaptcha_widget_div .recaptchatable															{background:#F6F6F6; border-color:#F6F6F6 !important;}
+
+/* COUPON */
+.coupon 																																		{padding:50px 0;}
+.coupon h2 																																	{margin:0; padding:30px 0 20px; color:#8a847c; font-size:30px; font-weight:bold; line-height:34px; border-bottom:1px solid #DFDAD5;}
+.coupon p 																																	{margin:0; padding:20px 0; color:#7c7b7b; font-size:14px; line-height:20px;}
+.coupon .print																															{margin:0; padding:0; display:block; color:#fffffe; font-size:20px; line-height:70px; text-align:center; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:8px; border-radius:8px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+.coupon .print:hover 																												{background:#5CA7E8;}
+.coupon .left-side																													{padding-bottom:80px;}
+.coupon .right-side																													{padding-bottom:80px;}
+.coupon .actions 																														{margin:0 30px; padding:0; border-top:1px solid #DFDAD5; border-bottom:1px solid #DFDAD5; clear:both;}
+.coupon .actions h6 																												{margin:-10px auto 0; padding:0; width:190px; color:#b4b4b4; font-size:11px; text-align:center; text-transform:uppercase; background:#fff;}
+.coupon .actions .box																												{margin:0; padding:0 25px; float:left;}
+.coupon .actions .button 																										{margin:0; padding:0; width:75px; height:25px; display:block; color:#858484; font-size:13px; font-style:italic; line-height:25px; text-align:center; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
+.coupon .actions .button:hover 																							{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
 
 /* PRODUCT */
 .product .social-plugs 																											{margin:0 0 38px; padding:0; overflow:hidden;}
@@ -243,7 +349,7 @@ ul, ol, li                                                                  {lis
 .recipe-page .review-box .rater 																						{margin:0 auto 25px; padding:0; width:433px; height:509px; background-position:0 -202px; position:relative;}
 .recipe-page .review-box .rater h4 																					{margin:0 0 25px; padding:0; color:#7c7b7b; font-size:18px; font-style:italic; text-align:center; line-height:69px;}
 .recipe-page .review-box .rater .question 																	{margin:0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:122px; right:43px;}
-.recipe-page .review-box .rater .question .hover 														{margin:0; padding:20px; width:192px; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.recipe-page .review-box .rater .question .hover 														{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
 .recipe-page .review-box .rater .question .hover p 													{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
 .recipe-page .review-box .rater .question .hover p a 												{color:#fff; text-decoration:underline;}
 .recipe-page .review-box .rater .question .hover p a:hover 									{text-decoration:none;}
@@ -253,7 +359,7 @@ ul, ol, li                                                                  {lis
 .recipe-page .review-box .rater label span 																	{color:#de4400;}
 .recipe-page .review-box .rater input 																			{margin:4px 0 25px; padding:0 5px; width:308px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
 .recipe-page .review-box .rater input:focus 																{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
-.recipe-page .review-box .rater input.submit 																{margin:0 auto; padding:0; width:160px; height:30px; display:block; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px;}
+.recipe-page .review-box .rater input.submit 																{margin:0 auto; padding:0; width:160px; height:30px; display:block; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .recipe-page .review-box .rater input.submit:hover 													{background:#5CA7E8;}
 .recipe-page .review-box .rater textarea																		{margin:4px 0 25px; padding:5px; width:308px; height:140px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
 .recipe-page .review-box .rater textarea:focus 															{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
