@@ -3,7 +3,7 @@ body                                                                        {mar
 h1 																																					{margin:0; padding:0 0 15px; color:#c81e54; font-size:33px;}
 h1.main																																			{margin:0 30px 15px; padding:0 0 30px; color:#7c7b7b; font-size:28px; font-style:italic; border-bottom:1px solid #DFDAD5;}
 h2 																																					{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:18px; font-style:italic; font-weight:normal;}
-p 																																					{line-height:20px;}
+p 																																					{line-height:22px;}
 a                                                                           {color:#06a5ef; text-decoration:none;}
 ul, ol, li                                                                  {list-style-type:none;}
 ::selection                                                                 {background-color:#fcbe01; color:#fff;}
@@ -11,6 +11,7 @@ ul, ol, li                                                                  {lis
 ::webkit-selection                                                          {background-color:#fcbe01; color:#fff;}
 .sprite                                                                     {display:block; background:url("../images/sprite.png");}
 .clear                                                                      {clear:both;}
+.bold 																																			{font-weight:bold;}
 .wrapper  																																	{margin:0 auto; padding:0; width:980px; position:relative;}
 
 /* HEADER */
@@ -32,9 +33,9 @@ ul, ol, li                                                                  {lis
 .header .social li .youtube 																								{margin:0; padding:0; width:20px; height:20px; background-position:-963px 0;}
 .header .social li .youtube:hover 																					{background-position:-963px -21px;}
 .header .search-box 																												{margin:0 0 0 5px; padding:0; float:right;}
-.header .search-box input 																									{margin:0; padding:0 5px; width:63px; height:25px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.header .search-box input 																									{margin:0; padding:0 5px; width:63px; height:25px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .header .search-box .icon 																									{margin:0; padding:0; width:13px; height:13px; cursor:pointer; background-position:-984px 0; display:block; position:absolute; top:7px; right:4px;}
-.header .main-nav 																													{margin:0; padding:7px 0 0; width:960px; height:28px; display:block; background:#fff; position:absolute; top:44px; left:0px; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
+.header .main-nav 																													{margin:0; padding:7px 0 0; width:960px; height:28px; display:block; background:#fff; position:absolute; top:44px; left:10px; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
 .header .main-nav li 																												{margin:0; padding:0; float:left; position:relative; z-index:5;}
 .header .main-nav li a 																											{margin:0; padding:0; width:125px; display:block; color:#827c78; font-size:14px; line-height:21px; text-align:center; border-right:1px dashed #B9AA9B;}
 .header .main-nav li.right																									{float:right;}
@@ -97,13 +98,13 @@ ul, ol, li                                                                  {lis
 .account .buttons a:hover 																									{color:#fff; background:#F5C12A;}
 .account .buttons a.active 																									{color:#fff; background:#F5C12A;}
 .account .login 																														{margin:0 auto; padding:0; width:620px; border-top:1px solid #DFDAD5;}
-.account .login .connect 																										{margin:-10px auto 30px; padding:0 5px; width:185px; background:#fff; color:#7c7b7b; font-size:14px;}
+.account .login .connect 																										{margin:-10px auto 30px; padding:0 5px; width:185px; background:#fff; color:#7c7b7b; font-size:14px;  -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .account .login fieldset 																										{margin:0; padding:0; width:290px; border:none;}
 .account .login fieldset.left 																							{float:left;}
 .account .login fieldset.right																							{float:right;}
 .account .login label 																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
 .account .login label span 																									{color:#de4400;}
-.account .login input 																											{margin:4px 0 25px; padding:0 5px; width:280px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.account .login input 																											{margin:4px 0 25px; padding:0 5px; width:280px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .account .login input:focus 																								{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .account .login input.submit 																								{margin:4px 0 0; padding:0; width:130px; height:35px; display:block; float:right; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .account .login input.submit:hover 																					{background:#5CA7E8;}
@@ -112,7 +113,7 @@ ul, ol, li                                                                  {lis
 .account .third label 																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
 .account .third label span 																									{color:#de4400;}
 .account .third label.right 																								{float:right; width:135px;}
-.account .third input 																											{margin:4px 0 25px; padding:0 5px; width:270px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.account .third input 																											{margin:4px 0 25px; padding:0 5px; width:270px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; background:#F8F8F8; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .account .third input:focus 																								{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .account .third input.right 																								{margin-right:10px; float:right; width:115px; clear:right;}
 .account .third input.short 																								{margin-right:10px; float:left; width:245px;}
@@ -121,25 +122,27 @@ ul, ol, li                                                                  {lis
 .account .third select 																											{margin:8px 0 25px; padding:0; width:125px; display:block; font-size:18px;}
 .account .third .label																											{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-style:italic; position:relative; top:-8px;}
 .account .third .label.first																								{padding:0 40px 0 0;}
-.account .third .question 																									{margin:10px 10px 0 0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; float:right;}
-.account .third .question .hover 																						{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.account .third .question 																									{margin:10px 10px 0 0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; float:right; position:relative;}
+.account .third .question .hover 																						{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-58px; left:23px; -moz-border-radius:5px; border-radius:5px;}
 .account .third .question .hover p 																					{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
 .account .third .question .hover p a 																				{color:#fff; text-decoration:underline;}
 .account .third .question .hover p a:hover 																	{text-decoration:none;}
 .account .third .question .hover .point 																		{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.account .third .question:hover .hover 																			{display:block;}
 .account .half	 																														{margin:0 20px; padding:0 0 50px; width:440px; float:left;}
 .account h2 																																{padding:0 0 30px; font-weight:bold;}
 .account h4 																																{padding:30px 0 0; font-weight:bold; color:#b4b4b4; font-size:11px; text-transform:uppercase;}
-.account img 																																{margin:0 0 20px; padding:0;}
+.account img 																																{margin:0 0 20px; padding:0; max-width:100px;}
 .account ul 																																{margin:0; padding:0;}
 .account li																																	{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
 .account li span																														{font-weight:normal; position:relative;}
-.account li span .question 																									{margin:0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:0px; right:-20px; float:none;}
+.account li span .question 																									{margin:0 !important; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:0px; right:-20px; float:none;}
 .account li span .question .hover 																					{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
 .account li span .question .hover p 																				{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
 .account li span .question .hover p a 																			{color:#fff; text-decoration:underline;}
 .account li span .question .hover p a:hover 																{text-decoration:none;}
 .account li span .question .hover .point 																		{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.account li span .question:hover .hover 																		{display:block;}
 .account li.sub																															{margin:0; padding:0 0 5px; color:#7c7b7b; font-size:14px; font-weight:normal; font-style:italic;}
 .account .upload 																														{margin:0 0 30px; padding:0; width:130px; height:30px; display:block; color:#858484; font-size:14px; font-style:italic; text-align:center; line-height:30px; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
 .account .upload:hover 																											{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
@@ -163,12 +166,12 @@ ul, ol, li                                                                  {lis
 .contact fieldset.right 																										{width:290px; float:right;}
 .contact label 																															{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
 .contact label span 																												{color:#de4400;}
-.contact input 																															{margin:4px 0 25px; padding:0 5px; width:90%; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.contact input 																															{margin:4px 0 25px; padding:0 5px; width:90%; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .contact input:focus 																												{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .contact input.long 																												{width:95%;}
 .contact input.submit 																											{margin:50px 20px 0 0; padding:0; width:100px; height:35px; display:block; float:right; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .contact input.submit:hover 																								{background:#5CA7E8;}
-.contact textarea																														{margin:4px 0 25px; padding:5px; width:95%; height:170px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.contact textarea																														{margin:4px 0 25px; padding:5px; width:95%; height:170px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .contact textarea:focus 																										{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .contact .extra 																														{margin:30px 0 0; padding:30px 0 0; width:97%; border-top:1px solid #DFDAD5; font-style:italic;}
 .contact .right-side																												{margin:0; padding:0 30px 20px 15px; width:290px; float:right;}
@@ -177,13 +180,14 @@ ul, ol, li                                                                  {lis
 .contact .right-side .info p	 																							{margin:0; padding:0 0 5px; color:#7c7b7b; font-size:13px; line-height:18px;}
 .contact .right-side .info p a:hover 																				{text-decoration:underline;}
 .contact #recaptcha_widget_div 																							{float:left;}
-.recaptchatable #recaptcha_response_field 																	{border:none !important; background:#fff;}
+.contact .recaptchatable #recaptcha_response_field 													{border:none !important; background:#fff;}
+.contact .recaptchatable .recaptcha_image_cell 															{background:transparent !important;}
 .contact #recaptcha_widget_div .recaptchatable															{background:#F6F6F6; border-color:#F6F6F6 !important;}
 
 /* COUPON */
 .coupon 																																		{padding:50px 0;}
 .coupon h2 																																	{margin:0; padding:30px 0 20px; color:#8a847c; font-size:30px; font-weight:bold; line-height:34px; border-bottom:1px solid #DFDAD5;}
-.coupon p 																																	{margin:0; padding:20px 0; color:#7c7b7b; font-size:14px; line-height:20px;}
+.coupon p 																																	{margin:0; padding:20px 0; color:#7c7b7b; font-size:14px;}
 .coupon .print																															{margin:0; padding:0; display:block; color:#fffffe; font-size:20px; line-height:70px; text-align:center; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:8px; border-radius:8px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .coupon .print:hover 																												{background:#5CA7E8;}
 .coupon .left-side																													{padding-bottom:80px;}
@@ -194,6 +198,40 @@ ul, ol, li                                                                  {lis
 .coupon .actions .button 																										{margin:0; padding:0; position:relative; top:-5px; width:75px; height:25px; display:block; color:#858484; font-size:13px; font-style:italic; line-height:25px; text-align:center; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
 .coupon .actions .button:hover 																							{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
 
+/* FAQ */
+.faq 																																				{padding:50px 333px 50px 30px; width:617px;}
+.faq h1.main 																																{margin:0 0 50px;}
+.faq h3 																																		{margin:0; padding:50px 0 20px; color:#7c7b7b; font-size:18px; font-style:italic; line-height:22px;}
+.faq p	 																																		{margin:0; padding:0 0 20px; color:#7c7b7b; font-size:14;}
+.faq ul 																																		{margin:0 0 10px; padding:0 0 40px; border-bottom:1px solid #DFDAD5;}
+.faq ul li																																	{margin:0; padding:0 0 20px;}
+.faq ul li a																																{margin:0; padding:0; color:#06a5ef; font-size:18px; font-style:italic; line-height:22px;}
+.faq a:hover 																																{text-decoration:underline;}
+
+/* PROCESS */
+.process 																																		{padding:100px 0 50px;}
+.process .top 																															{margin:0 30px 30px; padding:0 0 40px; border-top:1px solid #DFDAD5; border-bottom:1px solid #DFDAD5; position:relative;}
+.process .top .back 																												{margin:-40px auto 20px; padding:0; width:247px; background:#fff;}
+.process .top .ribbon 																											{margin:0 auto; padding:0; width:243px; height:54px; background-position:-434px -216px;}
+.process .top p 																														{margin:0; padding:0; color:#8a847c; font-size:18px; font-style:italic; line-height:30px;}
+.process .earth 																														{margin:0 0 20px; padding:0; width:222px; height:150px; float:left; background-position:-455px -271px;}
+.process .microscope																												{margin:0 0 20px; padding:0; width:222px; height:150px; float:right; background-position:-1124px -216px;}
+.process .field 																														{margin:0 0 20px; padding:0; width:222px; height:150px; float:left; background-position:-901px -216px;}
+.process .min-logo																													{margin:0 0 20px; padding:0; width:222px; height:150px; float:right; background-position:-678px -216px;}
+
+/* LEGAL */
+.legal 																																			{padding:50px 0;}
+.legal h5 																																	{margin:0; padding:20px 0 15px; color:#7c7b7b; font-size:18px; font-style:italic;}
+.legal h6 																																	{margin:0; padding:0 0 5px; color:#7c7b7b; font-size:14px; font-style:italic;}
+.legal p 																																		{margin:0; padding:0 0 15px;}
+.legal ul 																																	{margin:0; padding:0 0 20px;}
+.legal ul li 																																{margin:0; padding:0 0 5px;}
+.legal ul.disc 																															{margin:0 0 0 15px;}
+.legal ul.disc li																														{padding:0 0 15px; list-style:disc; line-height:22px;}
+.legal a:hover 																															{text-decoration:underline;}
+.legal .top 																																{margin:30px; padding:0 0 40px; border-bottom:1px solid #DFDAD5; position:relative;}
+.legal .top p 																															{margin:0; padding:0; color:#8a847c; font-size:18px; font-style:italic; line-height:30px;}
+
 /* PRODUCT */
 .product .social-plugs 																											{margin:0 0 38px; padding:0; overflow:hidden;}
 .product .social-plugs .option 																							{margin:0; padding:0; float:left;}
@@ -202,7 +240,7 @@ ul, ol, li                                                                  {lis
 .product .right-side																												{padding-bottom:164px;}
 .product .center																														{margin:0; padding:75px 0; color:#8e8c88; font-size:34px; font-weight:bold; text-align:center;}
 .product h5 																																{margin:0; padding:35px 0 0; color:#f4a528; font-size:18px; font-weight:bold; font-style:italic;}
-.product .grid 																															{margin:0; padding:0 0 50px 30px; width:auto; overflow:hidden;}
+.product .grid 																															{margin:0; padding:0 0 50px 30px; width:auto; overflow:hidden; clear:both;}
 .product .grid li 																													{margin:0 25px 30px 0; padding:0; width:290px; float:left;}
 .product .grid li h3 																												{margin:0; padding:0 0 10px; color:#8f8e8e; font-size:16px; font-style:italic;}
 .product .grid li p 																												{margin:0; padding:0; color:#8f8e8e; font-size:13px;}
@@ -238,7 +276,6 @@ ul, ol, li                                                                  {lis
 .preperation .box .recipe li h3 																						{margin:0; padding:0 10px 10px; color:#8f8e8e; font-size:17px; font-style:normal; line-height:20px;}
 .preperation .box .recipe li .stars 																				{margin:0; padding:0 0 0 10px; overflow:hidden;}
 .preperation .box .recipe li .stars .star 																	{margin:0 2px 0 0; padding:0; width:18px; height:18px; display:block; background-position:-1012px 0; float:left;}
-.preperation .box .recipe li .stars .star:hover 														{background-position:-1031px 0;}
 .preperation .box .recipe li .stars .star.active 														{background-position:-1031px 0;}
 .preperation .box .recipe li .stars p 																			{margin:0; padding:0 0 0 8px; color:#bdbdbd; font-size:13px; display:inline; font-style:italic;}
 .preperation .box .recipe li .stats 																				{margin:0; padding:0; width:100%; height:26px; overflow:hidden; border:1px solid #D7D7D7; position:absolute; bottom:0; left:0;}
@@ -246,6 +283,7 @@ ul, ol, li                                                                  {lis
 .preperation .box .recipe li .stats .right 																	{margin:0; padding:0; width:49%; float:right;}
 .preperation .box .recipe li .stats p 																			{margin:0; padding:0; color:#8f8e8e; font-size:12px; font-weight:bold; text-align:center; line-height:26px;}
 .preperation .box .recipe li .stats p span 																	{font-weight:normal;}
+.preperation .box .recipe a:hover h3 																				{color:#5CA7E8;}
 .preperation .box .more 																										{margin:0 35px 0 0; padding:0 12px 0 0; color:#00b3f5; font-size:14px; font-style:italic; float:right; position:relative;}
 .preperation .box .more .arrow 																							{margin:0; padding:0; width:6px; height:8px; display:block; background-position:-1012px -19px; position:absolute; top:4px; right:0;}
 .preperation .box .more:hover 																							{text-decoration:underline;}
@@ -349,19 +387,20 @@ ul, ol, li                                                                  {lis
 .recipe-page .review-box .rater 																						{margin:0 auto 25px; padding:0; width:433px; height:509px; background-position:0 -202px; position:relative;}
 .recipe-page .review-box .rater h4 																					{margin:0 0 25px; padding:0; color:#7c7b7b; font-size:18px; font-style:italic; text-align:center; line-height:69px;}
 .recipe-page .review-box .rater .question 																	{margin:0; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:122px; right:43px;}
-.recipe-page .review-box .rater .question .hover 														{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
+.recipe-page .review-box .rater .question .hover 														{margin:0; padding:20px; width:206px; display:none; background:#4e9bdf; position:absolute; top:-58px; left:23px; -moz-border-radius:5px; border-radius:5px;}
 .recipe-page .review-box .rater .question .hover p 													{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
-.recipe-page .review-box .rater .question .hover p a 												{color:#fff; text-decoration:underline;}
+.recipe-page .review-box .rater .question .hover p a 												{color:#fff; cursor:pointer; text-decoration:underline;}
 .recipe-page .review-box .rater .question .hover p a:hover 									{text-decoration:none;}
 .recipe-page .review-box .rater .question .hover .point 										{margin:0; padding:0; width:8px; height:11px; display:block; background-position:-1050px 0; position:absolute; top:60px; left:-8px;}
+.recipe-page .review-box .rater .question:hover .hover 											{display:block;}
 .recipe-page .review-box .rater fieldset 																		{margin:0 auto; padding:0; width:350px; border:none;}
 .recipe-page .review-box .rater label 																			{margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
 .recipe-page .review-box .rater label span 																	{color:#de4400;}
-.recipe-page .review-box .rater input 																			{margin:4px 0 25px; padding:0 5px; width:308px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.recipe-page .review-box .rater input 																			{margin:4px 0 25px; padding:0 5px; width:308px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .recipe-page .review-box .rater input:focus 																{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .recipe-page .review-box .rater input.submit 																{margin:0 auto; padding:0; width:160px; height:30px; display:block; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
 .recipe-page .review-box .rater input.submit:hover 													{background:#5CA7E8;}
-.recipe-page .review-box .rater textarea																		{margin:4px 0 25px; padding:5px; width:308px; height:140px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #888; -webkit-box-shadow:inset 0px 1px 4px 1px #888; box-shadow:inset 0px 1px 4px 1px #888;}
+.recipe-page .review-box .rater textarea																		{margin:4px 0 25px; padding:5px; width:308px; height:140px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
 .recipe-page .review-box .rater textarea:focus 															{box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
 .recipe-page .review-box .rater .rated 																			{margin:14px auto 20px; padding:0; width:250px; height:40px; display:block; overflow:hidden;}
 .recipe-page .review-box .rater .rated li 																	{margin:0; padding:0 4px; float:left;}
