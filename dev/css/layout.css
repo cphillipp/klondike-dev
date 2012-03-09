@@ -135,7 +135,7 @@ ul, ol, li                                                                  {lis
 .account img 																																{margin:0 0 20px; padding:0; max-width:100px;}
 .account ul 																																{margin:0; padding:0;}
 .account li																																	{margin:0; padding:0 0 15px; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
-.account li span																														{font-weight:normal; position:relative;}
+.account li span																														{font-weight:normal; position:relative; display:inline-block;}
 .account li span .question 																									{margin:0 !important; padding:0; width:15px; height:15px; background-position:-1044px -19px; cursor:pointer; position:absolute; top:0px; right:-20px; float:none;}
 .account li span .question .hover 																					{margin:0; padding:20px; width:192px; display:none; background:#4e9bdf; position:absolute; top:-59px; left:30px; -moz-border-radius:5px; border-radius:5px;}
 .account li span .question .hover p 																				{margin:0; padding:0; color:#fff; font-size:13px; font-style:italic;}
@@ -332,7 +332,6 @@ ul, ol, li                                                                  {lis
 .recipe .recipes li h3 																											{margin:0; padding:0 10px 10px; color:#8f8e8e; font-size:17px; font-style:normal; line-height:20px;}
 .recipe .recipes li .stars 																									{margin:0; padding:0 0 0 10px; overflow:hidden;}
 .recipe .recipes li .stars .star 																						{margin:0 2px 0 0; padding:0; width:18px; height:18px; display:block; background-position:-1012px 0; float:left;}
-.recipe .recipes li .stars .star:hover 																			{background-position:-1031px 0;}
 .recipe .recipes li .stars .star.active 																		{background-position:-1031px 0;}
 .recipe .recipes li .stars p 																								{margin:0; padding:0 0 0 8px; color:#bdbdbd; font-size:13px; display:inline; font-style:italic;}
 .recipe .recipes li .stats 																									{margin:0; padding:0; width:100%; height:26px; overflow:hidden; border:1px solid #D7D7D7; position:absolute; bottom:0; left:0;}
@@ -340,6 +339,7 @@ ul, ol, li                                                                  {lis
 .recipe .recipes li .stats .right 																					{margin:0; padding:0; width:49%; float:right;}
 .recipe .recipes li .stats p 																								{margin:0; padding:0; color:#8f8e8e; font-size:12px; font-weight:bold; text-align:center; line-height:26px;}
 .recipe .recipes li .stats p span 																					{font-weight:normal;}
+.recipe .recipes li:hover h3 																								{color:#06a5ef;}
 .recipe-page .left-side 																										{padding-bottom:120px;}
 .recipe-page .left-side img 																								{margin:40px 0 0; padding:0; border:10px solid #fff; -moz-box-shadow:0 2px 5px #999; -webkit-box-shadow:0 2px 5px #999; box-shadow:0 2px 5px #999;}
 .recipe-page .left-side .watch 																							{margin:0; padding:0; height:50px; line-height:50px; display:block; color:#918d87; font-size:14px; font-weight:bold; font-style:italic; white-space:nowrap; text-align:center; background:url('../images/gold-stripe.png') repeat 0 0;}
