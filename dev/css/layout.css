@@ -198,6 +198,30 @@ ul, ol, li                                                                  {lis
 .coupon .actions .button 																										{margin:0; padding:0; position:relative; top:-5px; width:75px; height:25px; display:block; color:#858484; font-size:13px; font-style:italic; line-height:25px; text-align:center; border-top:1px solid #ebeaea; border-left:1px solid #ebeaea; border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:2px 2px 5px #ebebeb; -webkit-box-shadow:2px 2px 5px #ebebeb; box-shadow:2px 2px 5px #ebebeb; background-image: linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(235,234,234) 0%, rgb(255,255,255) 100%);}
 .coupon .actions .button:hover 																							{color:#fff; background-image: linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -o-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -moz-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -webkit-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%); background-image: -ms-linear-gradient(bottom, rgb(85,153,209) 0%, rgb(93,166,226) 100%);}
 
+/* COUPON PRINT */
+.coupon-print.wrapper                                                       {padding:50px 0; width:500px;}
+.coupon-print h1                                                            {margin:0; padding:0; color:#827C78; font-size:20px; font-style:italic; font-weight:normal; text-align:center;}
+.coupon-print .coupon-box                                                   {margin:60px 0 50px -2px; padding:20px; width:464px; background:url('../images/body-coupon.png') repeat-y; position:relative;}
+.coupon-print .coupon-box .top                                              {margin:0; padding:0; width:504px; height:33px; background:url('../images/top-coupon.png') no-repeat; position:absolute; top:-33px; left:0px;}
+.coupon-print .coupon-box .bottom                                           {margin:0; padding:0; width:504px; height:7px; background:url('../images/bottom-coupon.png') no-repeat; position:absolute; bottom:-7px; left:0px;}
+.coupon-print .coupon-box ul                                                {margin:0; padding:0;}
+.coupon-print .coupon-box ul li                                             {margin:0; padding:0; clear:both;}
+.coupon-print .coupon-box ul li input                                       {margin:0; padding:0; position:relative; top:3px;}
+.coupon-print .coupon-box ul li label                                       {margin:0; padding:0 0 10px; float:right; width:435px; display:block; color:#7c7b7b; font-size:18px; font-style:italic; line-height:24px;}
+.coupon-print .narrow                                                       {margin:0 auto; padding:0; width:450px;}
+.coupon-print .coupon-form                                                  {margin:10px auto 25px; padding:30px 180px 30px 0; width:270px; border-top:1px solid #DDD9D4; border-bottom:1px solid #DDD9D4; overflow:hidden;}
+.coupon-print .coupon-form fieldset                                         {margin:0; padding:0; border:none;}
+.coupon-print .coupon-form fieldset.left                                    {width:45%; float:left;}
+.coupon-print .coupon-form fieldset.right                                   {width:45%; float:right;}
+.coupon-print .coupon-form fieldset input                                   {width:95%;}
+.coupon-print .coupon-form label                                            {margin:0; padding:0; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+.coupon-print .coupon-form label span                                       {color:#de4400;}
+.coupon-print .coupon-form input                                            {margin:4px 0 25px; padding:0 5px; width:97%; height:30px; display:block; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
+.coupon-print .coupon-form input:focus                                      {box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+.coupon-print input.submit                                                  {margin:40px auto; padding:0; width:450px; display:block; color:#fffffe; font-size:20px; height:70px; text-align:center; font-style:italic; background:#4e9bdf; cursor:pointer; border:none; -moz-border-radius:8px; border-radius:8px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+.coupon-print input.submit:hover                                            {background:#5CA7E8;}
+.coupon-print .coupon-form select                                           {margin:8px 0 25px; padding:0; width:125px; display:block; font-size:18px;}
+
 /* FAQ */
 .faq 																																				{padding:50px 333px 50px 30px; width:617px;}
 .faq h1.main 																																{margin:0 0 50px;}
