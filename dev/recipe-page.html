@@ -5,6 +5,7 @@
 	<title>Klondike Brands</title>
 	
 	<!-- STYLESHEETS -->
+	<link href="css/colorbox.css" rel="stylesheet" type="text/css" />
 	<link href="css/layout.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 	
@@ -12,6 +13,12 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/footer.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".modal").colorbox({inline:true, width:"410px"});
+		});
+	</script>
 </head>
 
 <body>
@@ -93,7 +100,22 @@
 					<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
 				</div>
 				<div class="box">
-					<a href="#" class="button">Email it</a>
+					<a href="#modal_content" class="button modal">Email it</a>
+					<div style='display:none'>
+						<div id='modal_content'>
+							<form>
+								<div class="bar"></div>
+								<h2>Email This Recipe to a Friend</h2>
+								<label>To <span>*</span></label>
+								<input type="text" name="name" />
+								<label>From <span>*</span></label>
+								<input type="text" name="name" />
+								<label>Your Message <span>*</span></label>
+								<textarea></textarea>
+								<input type="submit" value="Send" class="submit" />
+							</form>
+						</div>
+					</div>
 					<a href="#" class="button">Print it</a>
 				</div>
 				<div class="sprite shadow"></div>

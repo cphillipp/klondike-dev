@@ -79,6 +79,20 @@ ul, ol, li                                                                  {lis
 #slidebox .thumbs .thumb:hover																							{background-position:-998px -8px;}
 #slidebox .selected_thumb																										{margin:0 3px; padding:0; width:13px; height:13px; display:block; float:left; background:url("../images/sprite.png") no-repeat -998px -16px; position:relative; top:-3px;}
 
+/* MODAL */
+#modal_content                                                              {margin:0; padding:8px; background:#CACAC8; -moz-border-radius:8px; border-radius:8px;}
+#modal_content form                                                         {margin:0; padding:40px; background:#fff; -moz-border-radius:4px; border-radius:4px; -moz-box-shadow:0 0px 5px #999; -webkit-box-shadow:0 0px 5px #999; box-shadow:0 0px 5px #999;}
+#modal_content .bar                                                         {margin:0 0 -9px; padding:0; height:1px; background:#ddd9d4;}
+#modal_content h2                                                           {margin:0 auto; padding:0 0 40px; width:260px; color:#8a847c; font-size:18px; font-style:italic; text-align:center; background:#fff;}
+#modal_content label                                                        {margin:0; padding:0; display:block; color:#7c7b7b; font-size:14px; font-weight:bold; font-style:italic;}
+#modal_content label span                                                   {color:#de4400;}
+#modal_content input                                                        {margin:4px 0 25px; padding:0 5px; width:280px; height:30px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
+#modal_content input:focus                                                  {box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+#modal_content input.submit                                                 {margin:4px auto 0; padding:0; width:130px; height:35px; display:block; color:#fffffe; font-size:14px; font-style:italic; background:#4e9bdf; cursor:pointer; -moz-border-radius:5px; border-radius:5px; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+#modal_content input.submit:hover                                           {background:#5CA7E8;}
+#modal_content textarea                                                     {margin:4px 0 25px; padding:5px; width:280px; height:170px; color:#9b9a9a; font-size:13px; font-style:italic; font-family:"Lora," Georgia, Times; border:none; background:#F8F8F8; -moz-border-radius:3px; border-radius:3px; -moz-box-shadow:inset 0px 1px 4px 1px #acacac; -webkit-box-shadow:inset 0px 1px 4px 1px #acacac; box-shadow:inset 0px 1px 4px 1px #acacac;}
+#modal_content textarea:focus                                               {box-shadow: 0 0 1px rgba(54, 158, 225, 1); -webkit-box-shadow: 0 0 1px rgba(54, 158, 225, 1); -moz-box-shadow: 0 0 1px rgba(54, 158, 225, 1);}
+
 /* VARIETIES */
 .varieties																																	{margin:0 auto 40px; padding:0; width:960px; height:188px; position:relative;}
 .varieties .middle 																													{margin:0 auto; padding:100px 0 0; width:346px; height:88px; background-position:-1061px 0;}
